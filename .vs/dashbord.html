@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .content {
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Real-Time Face Detection</h1>
+    </div>
+    <nav>
+        <a href="#faces">Faces</a>
+        <a href="#about">About</a>
+        <a href="#works">Works</a>
+    </nav>
+    <div class="container">
+        <div class="content" id="faces">
+            <h2>Add Faces</h2>
+            <!-- Add your face upload form here -->
+            <p>This section will allow you to add faces.</p>
+        </div>
+        <div class="content" id="about">
+            <h2>About</h2>
+            <p>This is the About section.</p>
+        </div>
+        <div class="content" id="works">
+            <h2>Works</h2>
+            <p>This is the Works section.</p>
+        </div>
+        <button class="button">Detect Faces</button>
+    </div>
+</body>
+</html>
